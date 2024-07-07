@@ -1,0 +1,347 @@
+{"version": "add_mount", "dt": "2024-07-06 17:46:10", "event": "session_start"}
+{"version": "add_mount", "dt": "2024-07-06 17:46:10", "event": "starting_enter_specific_iskazh"}
+{"version": "add_mount", "dt": "2024-07-06 17:46:31", "event": "session_start"}
+{"version": "add_mount", "dt": "2024-07-06 17:46:31", "event": "starting_enter_specific_iskazh"}
+{"version": "add_mount", "dt": "2024-07-06 17:46:34", "event": "enter_iskazh", "location": "Наследие Фрактала"}
+{"version": "add_mount", "dt": "2024-07-06 17:46:39", "event": "enter_iskazh", "location": "Хутор Дубово"}
+{"version": "add_mount", "dt": "2024-07-06 17:46:45", "event": "enter_iskazh", "location": "Стальная коса"}
+{"version": "add_mount", "dt": "2024-07-06 17:46:49", "event": "enter_iskazh", "location": "Ботанический сад"}
+{"version": "add_mount", "dt": "2024-07-06 17:46:55", "event": "enter_iskazh", "location": "Жемчужная гавань"}
+{"version": "add_mount", "dt": "2024-07-06 17:47:00", "event": "enter_iskazh", "location": "Ботанический сад"}
+{"version": "add_mount", "dt": "2024-07-06 17:47:05", "event": "enter_iskazh", "location": "Террариум"}
+{"version": "add_mount", "dt": "2024-07-06 17:47:10", "event": "enter_iskazh", "location": "Курбатское поле"}
+{"version": "add_mount", "dt": "2024-07-06 17:47:15", "event": "enter_iskazh", "location": "Наследие Фрактала"}
+{"version": "add_mount", "dt": "2024-07-06 17:47:21", "event": "enter_iskazh", "location": "Белая крепость"}
+{"version": "add_mount", "dt": "2024-07-06 17:47:26", "event": "enter_iskazh", "location": "Жемчужная гавань"}
+{"version": "add_mount", "dt": "2024-07-06 17:47:31", "event": "enter_iskazh", "location": "Курбатское поле"}
+{"version": "add_mount", "dt": "2024-07-06 17:47:36", "event": "enter_iskazh", "location": "Ботанический сад"}
+{"version": "add_mount", "dt": "2024-07-06 17:47:41", "event": "enter_iskazh", "location": "Ледяная пещера"}
+{"version": "add_mount", "dt": "2024-07-06 17:47:41", "event": "move", "target": {"coords": [9699, 14383], "loc": "Ледяная пещера"}}
+{"version": "add_mount", "dt": "2024-07-06 17:47:44", "event": "move", "target": {"coords": [9670, 14383], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 17:47:47", "event": "kill_all", "target": {"coords": [9670, 14383], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 17:48:15", "event": "move", "target": {"coords": [9635, 14382], "loc": "Ледяная пещера"}}
+{"version": "add_mount", "dt": "2024-07-06 17:48:19", "event": "move", "target": {"coords": [9556, 14371], "loc": "Ледяная пещера"}}
+{"version": "add_mount", "dt": "2024-07-06 17:48:25", "event": "move", "target": {"coords": [9499, 14377], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 17:48:33", "event": "kill_all", "target": {"coords": [9499, 14377], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 17:49:01", "event": "move", "target": {"coords": [9479, 14397], "loc": "Ледяная пещера"}}
+{"version": "add_mount", "dt": "2024-07-06 17:49:06", "event": "move", "target": {"coords": [9504, 14449], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 17:49:12", "event": "kill_all", "target": {"coords": [9504, 14449], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 17:50:23", "event": "move", "target": {"coords": [9504, 14449], "loc": "Ледяная пещера"}}
+{"version": "add_mount", "dt": "2024-07-06 17:50:27", "event": "move", "target": {"coords": [9524, 14463], "loc": "Ледяная пещера"}}
+{"version": "add_mount", "dt": "2024-07-06 17:50:33", "event": "move", "target": {"coords": [9614, 14468], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 18:05:37", "event": "kill_all", "target": {"coords": [9614, 14468], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 18:06:07", "event": "move", "target": {"coords": [9671, 14491], "loc": "Ледяная пещера"}}
+{"version": "add_mount", "dt": "2024-07-06 18:06:12", "event": "move", "target": {"coords": [9718, 14489], "loc": "Ледяная пещера"}}
+{"version": "add_mount", "dt": "2024-07-06 18:06:16", "event": "move", "target": {"coords": [9736, 14473], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 18:06:19", "event": "kill_all", "target": {"coords": [9736, 14473], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 18:06:52", "event": "move", "target": {"coords": [9764, 14451], "loc": "Ледяная пещера"}}
+{"version": "add_mount", "dt": "2024-07-06 18:06:57", "event": "move", "target": {"coords": [9818, 14429], "loc": "Ледяная пещера", "fight": {"single_target": true}}}
+{"version": "add_mount", "dt": "2024-07-06 18:07:04", "event": "kill_all", "target": {"coords": [9818, 14429], "loc": "Ледяная пещера", "fight": {"single_target": true}}}
+{"version": "add_mount", "dt": "2024-07-06 18:07:57", "event": "move", "target": {"coords": [9848, 14418], "loc": "Ледяная пещера", "has_reward": true}}
+{"version": "add_mount", "dt": "2024-07-06 18:08:05", "event": "move", "target": {"coords": [9870, 14436], "loc": "Ледяная пещера"}}
+{"version": "add_mount", "dt": "2024-07-06 18:08:09", "event": "move", "target": {"coords": [9933, 14432], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 18:08:16", "event": "kill_all", "target": {"coords": [9933, 14432], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 18:08:47", "event": "move", "target": {"coords": [9962, 14530], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 18:08:57", "event": "kill_all", "target": {"coords": [9962, 14530], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 18:09:23", "event": "move", "target": {"coords": [9973, 14550], "loc": "Ледяная пещера"}}
+{"version": "add_mount", "dt": "2024-07-06 18:09:26", "event": "move", "target": {"coords": [10060, 14570], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 18:09:33", "event": "kill_all", "target": {"coords": [10060, 14570], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 18:10:05", "event": "move", "target": {"coords": [10098, 14577], "loc": "Ледяная пещера"}}
+{"version": "add_mount", "dt": "2024-07-06 18:10:09", "event": "move", "target": {"coords": [10154, 14618], "loc": "Ледяная пещера"}}
+{"version": "add_mount", "dt": "2024-07-06 18:10:15", "event": "move", "target": {"coords": [10183, 14615], "loc": "Ледяная пещера"}}
+{"version": "add_mount", "dt": "2024-07-06 18:10:18", "event": "move", "target": {"coords": [10235, 14533], "loc": "Ледяная пещера", "fight": {"single_target": true}}}
+{"version": "add_mount", "dt": "2024-07-06 18:10:25", "event": "kill_all", "target": {"coords": [10235, 14533], "loc": "Ледяная пещера", "fight": {"single_target": true}}}
+{"version": "add_mount", "dt": "2024-07-06 18:11:20", "event": "death", "target": [10236, 14532]}
+{"version": "add_mount", "dt": "2024-07-06 18:11:33", "event": "starting_enter_specific_iskazh"}
+{"version": "add_mount", "dt": "2024-07-06 18:11:36", "event": "enter_iskazh", "location": "Стальная коса"}
+{"version": "add_mount", "dt": "2024-07-06 18:11:41", "event": "enter_iskazh", "location": "Курбатское поле"}
+{"version": "add_mount", "dt": "2024-07-06 18:11:46", "event": "enter_iskazh", "location": "Жемчужная гавань"}
+{"version": "add_mount", "dt": "2024-07-06 18:11:51", "event": "enter_iskazh", "location": "Наследие Фрактала"}
+{"version": "add_mount", "dt": "2024-07-06 18:11:56", "event": "enter_iskazh", "location": "Террариум"}
+{"version": "add_mount", "dt": "2024-07-06 18:12:02", "event": "enter_iskazh", "location": "Стальная коса"}
+{"version": "add_mount", "dt": "2024-07-06 18:12:07", "event": "enter_iskazh", "location": "Стальная коса"}
+{"version": "add_mount", "dt": "2024-07-06 18:12:12", "event": "enter_iskazh", "location": "Террариум"}
+{"version": "add_mount", "dt": "2024-07-06 18:12:17", "event": "enter_iskazh", "location": "Стальная коса"}
+{"version": "add_mount", "dt": "2024-07-06 18:12:22", "event": "enter_iskazh", "location": "Террариум"}
+{"version": "add_mount", "dt": "2024-07-06 18:12:27", "event": "enter_iskazh", "location": "Пылающие недра"}
+{"version": "add_mount", "dt": "2024-07-06 18:12:32", "event": "enter_iskazh", "location": "Курбатское поле"}
+{"version": "add_mount", "dt": "2024-07-06 18:12:37", "event": "enter_iskazh", "location": "Жемчужная гавань"}
+{"version": "add_mount", "dt": "2024-07-06 18:12:42", "event": "enter_iskazh", "location": "Ботанический сад"}
+{"version": "add_mount", "dt": "2024-07-06 18:12:48", "event": "enter_iskazh", "location": "Белая крепость"}
+{"version": "add_mount", "dt": "2024-07-06 18:12:53", "event": "enter_iskazh", "location": "Стальная коса"}
+{"version": "add_mount", "dt": "2024-07-06 18:12:58", "event": "enter_iskazh", "location": "Террариум"}
+{"version": "add_mount", "dt": "2024-07-06 18:13:03", "event": "enter_iskazh", "location": "Террариум"}
+{"version": "add_mount", "dt": "2024-07-06 18:13:08", "event": "enter_iskazh", "location": "Террариум"}
+{"version": "add_mount", "dt": "2024-07-06 18:13:13", "event": "enter_iskazh", "location": "Белая крепость"}
+{"version": "add_mount", "dt": "2024-07-06 18:13:18", "event": "enter_iskazh", "location": "Наследие Фрактала"}
+{"version": "add_mount", "dt": "2024-07-06 18:13:23", "event": "enter_iskazh", "location": "Курбатское поле"}
+{"version": "add_mount", "dt": "2024-07-06 18:13:29", "event": "enter_iskazh", "location": "Белая крепость"}
+{"version": "add_mount", "dt": "2024-07-06 18:13:34", "event": "enter_iskazh", "location": "Наследие Фрактала"}
+{"version": "add_mount", "dt": "2024-07-06 18:13:39", "event": "enter_iskazh", "location": "Курбатское поле"}
+{"version": "add_mount", "dt": "2024-07-06 18:13:44", "event": "enter_iskazh", "location": "Курбатское поле"}
+{"version": "add_mount", "dt": "2024-07-06 18:13:49", "event": "enter_iskazh", "location": "Ботанический сад"}
+{"version": "add_mount", "dt": "2024-07-06 18:13:54", "event": "enter_iskazh", "location": "Ботанический сад"}
+{"version": "add_mount", "dt": "2024-07-06 18:13:59", "event": "enter_iskazh", "location": "Стальная коса"}
+{"version": "add_mount", "dt": "2024-07-06 18:14:05", "event": "enter_iskazh", "location": "Жемчужная гавань"}
+{"version": "add_mount", "dt": "2024-07-06 18:14:10", "event": "enter_iskazh", "location": "Белая крепость"}
+{"version": "add_mount", "dt": "2024-07-06 18:14:15", "event": "enter_iskazh", "location": "Жемчужная гавань"}
+{"version": "add_mount", "dt": "2024-07-06 18:14:20", "event": "enter_iskazh", "location": "Хутор Дубово"}
+{"version": "add_mount", "dt": "2024-07-06 18:14:25", "event": "enter_iskazh", "location": "Ледяная пещера"}
+{"version": "add_mount", "dt": "2024-07-06 18:14:25", "event": "move", "target": {"coords": [9699, 14383], "loc": "Ледяная пещера"}}
+{"version": "add_mount", "dt": "2024-07-06 18:14:29", "event": "move", "target": {"coords": [9670, 14383], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 18:14:33", "event": "kill_all", "target": {"coords": [9670, 14383], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 18:15:01", "event": "move", "target": {"coords": [9635, 14382], "loc": "Ледяная пещера"}}
+{"version": "add_mount", "dt": "2024-07-06 18:15:06", "event": "move", "target": {"coords": [9556, 14371], "loc": "Ледяная пещера"}}
+{"version": "add_mount", "dt": "2024-07-06 18:26:32", "event": "session_start"}
+{"version": "add_mount", "dt": "2024-07-06 18:26:32", "event": "starting_enter_specific_iskazh"}
+{"version": "add_mount", "dt": "2024-07-06 18:26:33", "event": "enter_iskazh", "location": "Ледяная пещера"}
+{"version": "add_mount", "dt": "2024-07-06 18:26:33", "event": "move", "target": {"coords": [9699, 14383], "loc": "Ледяная пещера"}}
+{"version": "add_mount", "dt": "2024-07-06 18:26:37", "event": "move", "target": {"coords": [9670, 14383], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 18:26:42", "event": "kill_all", "target": {"coords": [9670, 14383], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 18:26:47", "event": "move", "target": {"coords": [9635, 14382], "loc": "Ледяная пещера"}}
+{"version": "add_mount", "dt": "2024-07-06 18:26:53", "event": "move", "target": {"coords": [9556, 14371], "loc": "Ледяная пещера"}}
+{"version": "add_mount", "dt": "2024-07-06 18:27:03", "event": "move", "target": {"coords": [9499, 14377], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 18:27:07", "event": "kill_all", "target": {"coords": [9499, 14377], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 18:27:36", "event": "move", "target": {"coords": [9479, 14397], "loc": "Ледяная пещера"}}
+{"version": "add_mount", "dt": "2024-07-06 18:27:40", "event": "move", "target": {"coords": [9504, 14449], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 18:27:46", "event": "kill_all", "target": {"coords": [9504, 14449], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 18:28:47", "event": "move", "target": {"coords": [9504, 14449], "loc": "Ледяная пещера"}}
+{"version": "add_mount", "dt": "2024-07-06 18:28:51", "event": "move", "target": {"coords": [9524, 14463], "loc": "Ледяная пещера"}}
+{"version": "add_mount", "dt": "2024-07-06 18:28:56", "event": "move", "target": {"coords": [9614, 14468], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 18:29:03", "event": "kill_all", "target": {"coords": [9614, 14468], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 18:29:34", "event": "move", "target": {"coords": [9671, 14491], "loc": "Ледяная пещера"}}
+{"version": "add_mount", "dt": "2024-07-06 18:29:44", "event": "move", "target": {"coords": [9718, 14489], "loc": "Ледяная пещера"}}
+{"version": "add_mount", "dt": "2024-07-06 18:29:47", "event": "move", "target": {"coords": [9736, 14473], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 18:29:54", "event": "kill_all", "target": {"coords": [9736, 14473], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 18:30:23", "event": "move", "target": {"coords": [9764, 14451], "loc": "Ледяная пещера"}}
+{"version": "add_mount", "dt": "2024-07-06 18:30:28", "event": "move", "target": {"coords": [9818, 14429], "loc": "Ледяная пещера", "fight": {"single_target": true}}}
+{"version": "add_mount", "dt": "2024-07-06 18:30:32", "event": "kill_all", "target": {"coords": [9818, 14429], "loc": "Ледяная пещера", "fight": {"single_target": true}}}
+{"version": "add_mount", "dt": "2024-07-06 18:31:21", "event": "move", "target": {"coords": [9848, 14418], "loc": "Ледяная пещера", "has_reward": true}}
+{"version": "add_mount", "dt": "2024-07-06 18:31:25", "event": "move", "target": {"coords": [9870, 14436], "loc": "Ледяная пещера"}}
+{"version": "add_mount", "dt": "2024-07-06 18:31:29", "event": "move", "target": {"coords": [9933, 14432], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 18:31:35", "event": "kill_all", "target": {"coords": [9933, 14432], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 18:31:59", "event": "move", "target": {"coords": [9962, 14530], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 18:32:10", "event": "kill_all", "target": {"coords": [9962, 14530], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 18:32:39", "event": "move", "target": {"coords": [9973, 14550], "loc": "Ледяная пещера"}}
+{"version": "add_mount", "dt": "2024-07-06 18:32:42", "event": "move", "target": {"coords": [10060, 14570], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 18:32:49", "event": "kill_all", "target": {"coords": [10060, 14570], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 18:33:16", "event": "move", "target": {"coords": [10098, 14577], "loc": "Ледяная пещера"}}
+{"version": "add_mount", "dt": "2024-07-06 18:33:20", "event": "move", "target": {"coords": [10154, 14618], "loc": "Ледяная пещера"}}
+{"version": "add_mount", "dt": "2024-07-06 18:33:25", "event": "move", "target": {"coords": [10183, 14615], "loc": "Ледяная пещера"}}
+{"version": "add_mount", "dt": "2024-07-06 18:33:28", "event": "move", "target": {"coords": [10235, 14533], "loc": "Ледяная пещера", "fight": {"single_target": true}}}
+{"version": "add_mount", "dt": "2024-07-06 18:33:35", "event": "kill_all", "target": {"coords": [10235, 14533], "loc": "Ледяная пещера", "fight": {"single_target": true}}}
+{"version": "add_mount", "dt": "2024-07-06 18:34:30", "event": "death", "target": [10237, 14531]}
+{"version": "add_mount", "dt": "2024-07-06 18:34:42", "event": "starting_enter_specific_iskazh"}
+{"version": "add_mount", "dt": "2024-07-06 18:34:45", "event": "enter_iskazh", "location": "Белая крепость"}
+{"version": "add_mount", "dt": "2024-07-06 18:34:50", "event": "enter_iskazh", "location": "Жемчужная гавань"}
+{"version": "add_mount", "dt": "2024-07-06 18:34:55", "event": "enter_iskazh", "location": "Наследие Фрактала"}
+{"version": "add_mount", "dt": "2024-07-06 18:35:00", "event": "enter_iskazh", "location": "Ледяная пещера"}
+{"version": "add_mount", "dt": "2024-07-06 18:35:00", "event": "move", "target": {"coords": [9699, 14383], "loc": "Ледяная пещера"}}
+{"version": "add_mount", "dt": "2024-07-06 18:35:03", "event": "move", "target": {"coords": [9670, 14383], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 18:35:06", "event": "kill_all", "target": {"coords": [9670, 14383], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 18:35:31", "event": "move", "target": {"coords": [9635, 14382], "loc": "Ледяная пещера"}}
+{"version": "add_mount", "dt": "2024-07-06 18:35:37", "event": "move", "target": {"coords": [9556, 14371], "loc": "Ледяная пещера"}}
+{"version": "add_mount", "dt": "2024-07-06 18:35:44", "event": "move", "target": {"coords": [9499, 14377], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 18:35:49", "event": "kill_all", "target": {"coords": [9499, 14377], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 18:36:18", "event": "move", "target": {"coords": [9479, 14397], "loc": "Ледяная пещера"}}
+{"version": "add_mount", "dt": "2024-07-06 18:36:21", "event": "move", "target": {"coords": [9504, 14449], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 18:36:26", "event": "kill_all", "target": {"coords": [9504, 14449], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 18:37:38", "event": "move", "target": {"coords": [9504, 14449], "loc": "Ледяная пещера"}}
+{"version": "add_mount", "dt": "2024-07-06 18:37:41", "event": "move", "target": {"coords": [9524, 14463], "loc": "Ледяная пещера"}}
+{"version": "add_mount", "dt": "2024-07-06 18:37:46", "event": "move", "target": {"coords": [9614, 14468], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 18:37:52", "event": "kill_all", "target": {"coords": [9614, 14468], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 18:38:23", "event": "move", "target": {"coords": [9671, 14491], "loc": "Ледяная пещера"}}
+{"version": "add_mount", "dt": "2024-07-06 18:38:28", "event": "move", "target": {"coords": [9718, 14489], "loc": "Ледяная пещера"}}
+{"version": "add_mount", "dt": "2024-07-06 18:38:32", "event": "move", "target": {"coords": [9736, 14473], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 18:38:36", "event": "kill_all", "target": {"coords": [9736, 14473], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 18:39:07", "event": "move", "target": {"coords": [9764, 14451], "loc": "Ледяная пещера"}}
+{"version": "add_mount", "dt": "2024-07-06 18:39:11", "event": "move", "target": {"coords": [9818, 14429], "loc": "Ледяная пещера", "fight": {"single_target": true}}}
+{"version": "add_mount", "dt": "2024-07-06 18:39:16", "event": "kill_all", "target": {"coords": [9818, 14429], "loc": "Ледяная пещера", "fight": {"single_target": true}}}
+{"version": "add_mount", "dt": "2024-07-06 18:40:06", "event": "move", "target": {"coords": [9848, 14418], "loc": "Ледяная пещера", "has_reward": true}}
+{"version": "add_mount", "dt": "2024-07-06 18:40:12", "event": "move", "target": {"coords": [9870, 14436], "loc": "Ледяная пещера"}}
+{"version": "add_mount", "dt": "2024-07-06 18:40:16", "event": "move", "target": {"coords": [9933, 14432], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 18:40:21", "event": "kill_all", "target": {"coords": [9933, 14432], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 18:40:44", "event": "move", "target": {"coords": [9962, 14530], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 18:40:52", "event": "kill_all", "target": {"coords": [9962, 14530], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 18:41:19", "event": "move", "target": {"coords": [9973, 14550], "loc": "Ледяная пещера"}}
+{"version": "add_mount", "dt": "2024-07-06 18:41:23", "event": "move", "target": {"coords": [10060, 14570], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 18:41:29", "event": "kill_all", "target": {"coords": [10060, 14570], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 18:42:00", "event": "move", "target": {"coords": [10098, 14577], "loc": "Ледяная пещера"}}
+{"version": "add_mount", "dt": "2024-07-06 18:42:05", "event": "move", "target": {"coords": [10154, 14618], "loc": "Ледяная пещера"}}
+{"version": "add_mount", "dt": "2024-07-06 18:42:11", "event": "move", "target": {"coords": [10183, 14615], "loc": "Ледяная пещера"}}
+{"version": "add_mount", "dt": "2024-07-06 18:42:17", "event": "move", "target": {"coords": [10235, 14533], "loc": "Ледяная пещера", "fight": {"single_target": true}}}
+{"version": "add_mount", "dt": "2024-07-06 18:42:24", "event": "kill_all", "target": {"coords": [10235, 14533], "loc": "Ледяная пещера", "fight": {"single_target": true}}}
+{"version": "add_mount", "dt": "2024-07-06 18:43:16", "event": "move", "target": {"coords": [10247, 14515], "loc": "Ледяная пещера", "has_reward": true}}
+{"version": "add_mount", "dt": "2024-07-06 18:43:24", "event": "starting_enter_specific_iskazh"}
+{"version": "add_mount", "dt": "2024-07-06 18:43:26", "event": "enter_iskazh", "location": "Террариум"}
+{"version": "add_mount", "dt": "2024-07-06 18:43:31", "event": "enter_iskazh", "location": "Наследие Фрактала"}
+{"version": "add_mount", "dt": "2024-07-06 18:43:36", "event": "enter_iskazh", "location": "Ледяная пещера"}
+{"version": "add_mount", "dt": "2024-07-06 18:43:36", "event": "move", "target": {"coords": [9699, 14383], "loc": "Ледяная пещера"}}
+{"version": "add_mount", "dt": "2024-07-06 18:43:39", "event": "move", "target": {"coords": [9670, 14383], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 18:43:42", "event": "kill_all", "target": {"coords": [9670, 14383], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 18:44:09", "event": "move", "target": {"coords": [9635, 14382], "loc": "Ледяная пещера"}}
+{"version": "add_mount", "dt": "2024-07-06 18:44:13", "event": "move", "target": {"coords": [9556, 14371], "loc": "Ледяная пещера"}}
+{"version": "add_mount", "dt": "2024-07-06 18:44:18", "event": "move", "target": {"coords": [9499, 14377], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 18:44:22", "event": "kill_all", "target": {"coords": [9499, 14377], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 18:44:50", "event": "move", "target": {"coords": [9479, 14397], "loc": "Ледяная пещера"}}
+{"version": "add_mount", "dt": "2024-07-06 18:44:53", "event": "move", "target": {"coords": [9504, 14449], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 18:45:01", "event": "kill_all", "target": {"coords": [9504, 14449], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 18:46:12", "event": "move", "target": {"coords": [9504, 14449], "loc": "Ледяная пещера"}}
+{"version": "add_mount", "dt": "2024-07-06 18:46:16", "event": "move", "target": {"coords": [9524, 14463], "loc": "Ледяная пещера"}}
+{"version": "add_mount", "dt": "2024-07-06 18:46:21", "event": "move", "target": {"coords": [9614, 14468], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 18:46:27", "event": "kill_all", "target": {"coords": [9614, 14468], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 18:46:59", "event": "move", "target": {"coords": [9671, 14491], "loc": "Ледяная пещера"}}
+{"version": "add_mount", "dt": "2024-07-06 18:47:05", "event": "move", "target": {"coords": [9718, 14489], "loc": "Ледяная пещера"}}
+{"version": "add_mount", "dt": "2024-07-06 18:47:12", "event": "move", "target": {"coords": [9736, 14473], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 18:47:15", "event": "kill_all", "target": {"coords": [9736, 14473], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 18:47:44", "event": "move", "target": {"coords": [9764, 14451], "loc": "Ледяная пещера"}}
+{"version": "add_mount", "dt": "2024-07-06 18:47:48", "event": "move", "target": {"coords": [9818, 14429], "loc": "Ледяная пещера", "fight": {"single_target": true}}}
+{"version": "add_mount", "dt": "2024-07-06 18:47:53", "event": "kill_all", "target": {"coords": [9818, 14429], "loc": "Ледяная пещера", "fight": {"single_target": true}}}
+{"version": "add_mount", "dt": "2024-07-06 18:48:46", "event": "move", "target": {"coords": [9848, 14418], "loc": "Ледяная пещера", "has_reward": true}}
+{"version": "add_mount", "dt": "2024-07-06 18:48:51", "event": "move", "target": {"coords": [9870, 14436], "loc": "Ледяная пещера"}}
+{"version": "add_mount", "dt": "2024-07-06 18:48:57", "event": "move", "target": {"coords": [9933, 14432], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 18:49:03", "event": "kill_all", "target": {"coords": [9933, 14432], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 18:49:32", "event": "move", "target": {"coords": [9962, 14530], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 18:49:42", "event": "kill_all", "target": {"coords": [9962, 14530], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 18:50:08", "event": "move", "target": {"coords": [9973, 14550], "loc": "Ледяная пещера"}}
+{"version": "add_mount", "dt": "2024-07-06 18:50:11", "event": "move", "target": {"coords": [10060, 14570], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 18:50:18", "event": "kill_all", "target": {"coords": [10060, 14570], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 18:50:46", "event": "move", "target": {"coords": [10098, 14577], "loc": "Ледяная пещера"}}
+{"version": "add_mount", "dt": "2024-07-06 18:50:50", "event": "move", "target": {"coords": [10154, 14618], "loc": "Ледяная пещера"}}
+{"version": "add_mount", "dt": "2024-07-06 18:50:55", "event": "move", "target": {"coords": [10183, 14615], "loc": "Ледяная пещера"}}
+{"version": "add_mount", "dt": "2024-07-06 18:50:58", "event": "move", "target": {"coords": [10235, 14533], "loc": "Ледяная пещера", "fight": {"single_target": true}}}
+{"version": "add_mount", "dt": "2024-07-06 18:51:09", "event": "kill_all", "target": {"coords": [10235, 14533], "loc": "Ледяная пещера", "fight": {"single_target": true}}}
+{"version": "add_mount", "dt": "2024-07-06 18:52:02", "event": "move", "target": {"coords": [10247, 14515], "loc": "Ледяная пещера", "has_reward": true}}
+{"version": "add_mount", "dt": "2024-07-06 18:52:08", "event": "starting_enter_specific_iskazh"}
+{"version": "add_mount", "dt": "2024-07-06 18:52:11", "event": "enter_iskazh", "location": "Жемчужная гавань"}
+{"version": "add_mount", "dt": "2024-07-06 18:52:16", "event": "enter_iskazh", "location": "Хутор Дубово"}
+{"version": "add_mount", "dt": "2024-07-06 18:52:22", "event": "enter_iskazh", "location": "Пылающие недра"}
+{"version": "add_mount", "dt": "2024-07-06 18:52:27", "event": "enter_iskazh", "location": "Хутор Дубово"}
+{"version": "add_mount", "dt": "2024-07-06 18:52:33", "event": "enter_iskazh", "location": "Белая крепость"}
+{"version": "add_mount", "dt": "2024-07-06 18:52:37", "event": "enter_iskazh", "location": "Пылающие недра"}
+{"version": "add_mount", "dt": "2024-07-06 18:52:42", "event": "enter_iskazh", "location": "Пылающие недра"}
+{"version": "add_mount", "dt": "2024-07-06 18:52:47", "event": "enter_iskazh", "location": "Наследие Фрактала"}
+{"version": "add_mount", "dt": "2024-07-06 18:52:52", "event": "enter_iskazh", "location": "Ледяная пещера"}
+{"version": "add_mount", "dt": "2024-07-06 18:52:52", "event": "move", "target": {"coords": [9699, 14383], "loc": "Ледяная пещера"}}
+{"version": "add_mount", "dt": "2024-07-06 18:52:56", "event": "move", "target": {"coords": [9670, 14383], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 18:53:01", "event": "kill_all", "target": {"coords": [9670, 14383], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 18:53:24", "event": "move", "target": {"coords": [9635, 14382], "loc": "Ледяная пещера"}}
+{"version": "add_mount", "dt": "2024-07-06 18:53:28", "event": "move", "target": {"coords": [9556, 14371], "loc": "Ледяная пещера"}}
+{"version": "add_mount", "dt": "2024-07-06 18:53:34", "event": "move", "target": {"coords": [9499, 14377], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 18:53:39", "event": "kill_all", "target": {"coords": [9499, 14377], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 18:54:00", "event": "move", "target": {"coords": [9479, 14397], "loc": "Ледяная пещера"}}
+{"version": "add_mount", "dt": "2024-07-06 18:54:05", "event": "move", "target": {"coords": [9504, 14449], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 18:54:09", "event": "kill_all", "target": {"coords": [9504, 14449], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 18:55:19", "event": "move", "target": {"coords": [9504, 14449], "loc": "Ледяная пещера"}}
+{"version": "add_mount", "dt": "2024-07-06 18:55:23", "event": "move", "target": {"coords": [9524, 14463], "loc": "Ледяная пещера"}}
+{"version": "add_mount", "dt": "2024-07-06 18:55:27", "event": "move", "target": {"coords": [9614, 14468], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 18:55:34", "event": "kill_all", "target": {"coords": [9614, 14468], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 18:56:01", "event": "move", "target": {"coords": [9671, 14491], "loc": "Ледяная пещера"}}
+{"version": "add_mount", "dt": "2024-07-06 18:56:07", "event": "move", "target": {"coords": [9718, 14489], "loc": "Ледяная пещера"}}
+{"version": "add_mount", "dt": "2024-07-06 18:56:10", "event": "move", "target": {"coords": [9736, 14473], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 18:56:13", "event": "kill_all", "target": {"coords": [9736, 14473], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 18:56:50", "event": "move", "target": {"coords": [9764, 14451], "loc": "Ледяная пещера"}}
+{"version": "add_mount", "dt": "2024-07-06 18:56:54", "event": "move", "target": {"coords": [9818, 14429], "loc": "Ледяная пещера", "fight": {"single_target": true}}}
+{"version": "add_mount", "dt": "2024-07-06 18:56:59", "event": "kill_all", "target": {"coords": [9818, 14429], "loc": "Ледяная пещера", "fight": {"single_target": true}}}
+{"version": "add_mount", "dt": "2024-07-06 18:57:50", "event": "move", "target": {"coords": [9848, 14418], "loc": "Ледяная пещера", "has_reward": true}}
+{"version": "add_mount", "dt": "2024-07-06 18:57:56", "event": "move", "target": {"coords": [9870, 14436], "loc": "Ледяная пещера"}}
+{"version": "add_mount", "dt": "2024-07-06 18:58:00", "event": "move", "target": {"coords": [9933, 14432], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 18:58:05", "event": "kill_all", "target": {"coords": [9933, 14432], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 18:58:27", "event": "move", "target": {"coords": [9962, 14530], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 18:58:39", "event": "kill_all", "target": {"coords": [9962, 14530], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 18:59:10", "event": "move", "target": {"coords": [9973, 14550], "loc": "Ледяная пещера"}}
+{"version": "add_mount", "dt": "2024-07-06 18:59:15", "event": "move", "target": {"coords": [10060, 14570], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 18:59:22", "event": "kill_all", "target": {"coords": [10060, 14570], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 18:59:54", "event": "move", "target": {"coords": [10098, 14577], "loc": "Ледяная пещера"}}
+{"version": "add_mount", "dt": "2024-07-06 18:59:58", "event": "move", "target": {"coords": [10154, 14618], "loc": "Ледяная пещера"}}
+{"version": "add_mount", "dt": "2024-07-06 19:00:03", "event": "move", "target": {"coords": [10183, 14615], "loc": "Ледяная пещера"}}
+{"version": "add_mount", "dt": "2024-07-06 19:00:06", "event": "move", "target": {"coords": [10235, 14533], "loc": "Ледяная пещера", "fight": {"single_target": true}}}
+{"version": "add_mount", "dt": "2024-07-06 19:00:13", "event": "kill_all", "target": {"coords": [10235, 14533], "loc": "Ледяная пещера", "fight": {"single_target": true}}}
+{"version": "add_mount", "dt": "2024-07-06 19:01:05", "event": "move", "target": {"coords": [10247, 14515], "loc": "Ледяная пещера", "has_reward": true}}
+{"version": "add_mount", "dt": "2024-07-06 19:01:11", "event": "starting_enter_specific_iskazh"}
+{"version": "add_mount", "dt": "2024-07-06 19:01:14", "event": "enter_iskazh", "location": "Террариум"}
+{"version": "add_mount", "dt": "2024-07-06 19:01:19", "event": "enter_iskazh", "location": "Жемчужная гавань"}
+{"version": "add_mount", "dt": "2024-07-06 19:01:24", "event": "enter_iskazh", "location": "Наследие Фрактала"}
+{"version": "add_mount", "dt": "2024-07-06 19:01:29", "event": "enter_iskazh", "location": "Ледяная пещера"}
+{"version": "add_mount", "dt": "2024-07-06 19:01:29", "event": "move", "target": {"coords": [9699, 14383], "loc": "Ледяная пещера"}}
+{"version": "add_mount", "dt": "2024-07-06 19:01:32", "event": "move", "target": {"coords": [9670, 14383], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 19:01:35", "event": "kill_all", "target": {"coords": [9670, 14383], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 19:02:01", "event": "move", "target": {"coords": [9635, 14382], "loc": "Ледяная пещера"}}
+{"version": "add_mount", "dt": "2024-07-06 19:02:05", "event": "move", "target": {"coords": [9556, 14371], "loc": "Ледяная пещера"}}
+{"version": "add_mount", "dt": "2024-07-06 19:02:11", "event": "move", "target": {"coords": [9499, 14377], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 19:02:23", "event": "kill_all", "target": {"coords": [9499, 14377], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 19:02:49", "event": "move", "target": {"coords": [9479, 14397], "loc": "Ледяная пещера"}}
+{"version": "add_mount", "dt": "2024-07-06 19:02:55", "event": "move", "target": {"coords": [9504, 14449], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 19:03:02", "event": "kill_all", "target": {"coords": [9504, 14449], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 19:04:13", "event": "move", "target": {"coords": [9504, 14449], "loc": "Ледяная пещера"}}
+{"version": "add_mount", "dt": "2024-07-06 19:04:17", "event": "move", "target": {"coords": [9524, 14463], "loc": "Ледяная пещера"}}
+{"version": "add_mount", "dt": "2024-07-06 19:04:21", "event": "move", "target": {"coords": [9614, 14468], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 19:04:27", "event": "kill_all", "target": {"coords": [9614, 14468], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 19:04:56", "event": "move", "target": {"coords": [9671, 14491], "loc": "Ледяная пещера"}}
+{"version": "add_mount", "dt": "2024-07-06 19:05:01", "event": "move", "target": {"coords": [9718, 14489], "loc": "Ледяная пещера"}}
+{"version": "add_mount", "dt": "2024-07-06 19:05:05", "event": "move", "target": {"coords": [9736, 14473], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 19:05:07", "event": "kill_all", "target": {"coords": [9736, 14473], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 19:05:44", "event": "move", "target": {"coords": [9764, 14451], "loc": "Ледяная пещера"}}
+{"version": "add_mount", "dt": "2024-07-06 19:05:48", "event": "move", "target": {"coords": [9818, 14429], "loc": "Ледяная пещера", "fight": {"single_target": true}}}
+{"version": "add_mount", "dt": "2024-07-06 19:05:53", "event": "kill_all", "target": {"coords": [9818, 14429], "loc": "Ледяная пещера", "fight": {"single_target": true}}}
+{"version": "add_mount", "dt": "2024-07-06 19:06:47", "event": "move", "target": {"coords": [9848, 14418], "loc": "Ледяная пещера", "has_reward": true}}
+{"version": "add_mount", "dt": "2024-07-06 19:06:54", "event": "move", "target": {"coords": [9870, 14436], "loc": "Ледяная пещера"}}
+{"version": "add_mount", "dt": "2024-07-06 19:06:59", "event": "move", "target": {"coords": [9933, 14432], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 19:07:04", "event": "kill_all", "target": {"coords": [9933, 14432], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 19:07:22", "event": "move", "target": {"coords": [9962, 14530], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 19:07:30", "event": "kill_all", "target": {"coords": [9962, 14530], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 19:07:58", "event": "move", "target": {"coords": [9973, 14550], "loc": "Ледяная пещера"}}
+{"version": "add_mount", "dt": "2024-07-06 19:08:01", "event": "move", "target": {"coords": [10060, 14570], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 19:08:07", "event": "kill_all", "target": {"coords": [10060, 14570], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 19:08:32", "event": "move", "target": {"coords": [10098, 14577], "loc": "Ледяная пещера"}}
+{"version": "add_mount", "dt": "2024-07-06 19:08:36", "event": "move", "target": {"coords": [10154, 14618], "loc": "Ледяная пещера"}}
+{"version": "add_mount", "dt": "2024-07-06 19:08:42", "event": "move", "target": {"coords": [10183, 14615], "loc": "Ледяная пещера"}}
+{"version": "add_mount", "dt": "2024-07-06 19:08:45", "event": "move", "target": {"coords": [10235, 14533], "loc": "Ледяная пещера", "fight": {"single_target": true}}}
+{"version": "add_mount", "dt": "2024-07-06 19:08:51", "event": "kill_all", "target": {"coords": [10235, 14533], "loc": "Ледяная пещера", "fight": {"single_target": true}}}
+{"version": "add_mount", "dt": "2024-07-06 19:09:43", "event": "move", "target": {"coords": [10247, 14515], "loc": "Ледяная пещера", "has_reward": true}}
+{"version": "add_mount", "dt": "2024-07-06 19:09:49", "event": "starting_enter_specific_iskazh"}
+{"version": "add_mount", "dt": "2024-07-06 19:09:53", "event": "enter_iskazh", "location": "Курбатское поле"}
+{"version": "add_mount", "dt": "2024-07-06 19:09:58", "event": "enter_iskazh", "location": "Белая крепость"}
+{"version": "add_mount", "dt": "2024-07-06 19:10:03", "event": "enter_iskazh", "location": "Пылающие недра"}
+{"version": "add_mount", "dt": "2024-07-06 19:10:08", "event": "enter_iskazh", "location": "Террариум"}
+{"version": "add_mount", "dt": "2024-07-06 19:10:13", "event": "enter_iskazh", "location": "Курбатское поле"}
+{"version": "add_mount", "dt": "2024-07-06 19:10:18", "event": "enter_iskazh", "location": "Курбатское поле"}
+{"version": "add_mount", "dt": "2024-07-06 19:10:24", "event": "enter_iskazh", "location": "Хутор Дубово"}
+{"version": "add_mount", "dt": "2024-07-06 19:10:29", "event": "enter_iskazh", "location": "Наследие Фрактала"}
+{"version": "add_mount", "dt": "2024-07-06 19:10:34", "event": "enter_iskazh", "location": "Ледяная пещера"}
+{"version": "add_mount", "dt": "2024-07-06 19:10:34", "event": "move", "target": {"coords": [9699, 14383], "loc": "Ледяная пещера"}}
+{"version": "add_mount", "dt": "2024-07-06 19:10:38", "event": "move", "target": {"coords": [9670, 14383], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 19:10:42", "event": "kill_all", "target": {"coords": [9670, 14383], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 19:11:06", "event": "move", "target": {"coords": [9635, 14382], "loc": "Ледяная пещера"}}
+{"version": "add_mount", "dt": "2024-07-06 19:11:10", "event": "move", "target": {"coords": [9556, 14371], "loc": "Ледяная пещера"}}
+{"version": "add_mount", "dt": "2024-07-06 19:11:16", "event": "move", "target": {"coords": [9499, 14377], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 19:11:21", "event": "kill_all", "target": {"coords": [9499, 14377], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 19:11:42", "event": "move", "target": {"coords": [9479, 14397], "loc": "Ледяная пещера"}}
+{"version": "add_mount", "dt": "2024-07-06 19:11:46", "event": "move", "target": {"coords": [9504, 14449], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 19:11:51", "event": "kill_all", "target": {"coords": [9504, 14449], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 19:13:02", "event": "move", "target": {"coords": [9504, 14449], "loc": "Ледяная пещера"}}
+{"version": "add_mount", "dt": "2024-07-06 19:13:06", "event": "move", "target": {"coords": [9524, 14463], "loc": "Ледяная пещера"}}
+{"version": "add_mount", "dt": "2024-07-06 19:13:10", "event": "move", "target": {"coords": [9614, 14468], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 19:13:16", "event": "kill_all", "target": {"coords": [9614, 14468], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 19:13:44", "event": "move", "target": {"coords": [9671, 14491], "loc": "Ледяная пещера"}}
+{"version": "add_mount", "dt": "2024-07-06 19:13:48", "event": "move", "target": {"coords": [9718, 14489], "loc": "Ледяная пещера"}}
+{"version": "add_mount", "dt": "2024-07-06 19:13:52", "event": "move", "target": {"coords": [9736, 14473], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 19:13:55", "event": "kill_all", "target": {"coords": [9736, 14473], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 19:14:31", "event": "move", "target": {"coords": [9764, 14451], "loc": "Ледяная пещера"}}
+{"version": "add_mount", "dt": "2024-07-06 19:14:35", "event": "move", "target": {"coords": [9818, 14429], "loc": "Ледяная пещера", "fight": {"single_target": true}}}
+{"version": "add_mount", "dt": "2024-07-06 19:14:41", "event": "kill_all", "target": {"coords": [9818, 14429], "loc": "Ледяная пещера", "fight": {"single_target": true}}}
+{"version": "add_mount", "dt": "2024-07-06 19:15:31", "event": "move", "target": {"coords": [9848, 14418], "loc": "Ледяная пещера", "has_reward": true}}
+{"version": "add_mount", "dt": "2024-07-06 19:15:35", "event": "move", "target": {"coords": [9870, 14436], "loc": "Ледяная пещера"}}
+{"version": "add_mount", "dt": "2024-07-06 19:15:42", "event": "move", "target": {"coords": [9933, 14432], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 19:15:47", "event": "kill_all", "target": {"coords": [9933, 14432], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 19:16:11", "event": "move", "target": {"coords": [9962, 14530], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 19:16:20", "event": "kill_all", "target": {"coords": [9962, 14530], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 19:16:48", "event": "move", "target": {"coords": [9973, 14550], "loc": "Ледяная пещера"}}
+{"version": "add_mount", "dt": "2024-07-06 19:16:51", "event": "move", "target": {"coords": [10060, 14570], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 19:16:58", "event": "kill_all", "target": {"coords": [10060, 14570], "loc": "Ледяная пещера", "fight": {"single_target": false}}}
+{"version": "add_mount", "dt": "2024-07-06 19:17:27", "event": "move", "target": {"coords": [10098, 14577], "loc": "Ледяная пещера"}}
+{"version": "add_mount", "dt": "2024-07-06 19:17:32", "event": "move", "target": {"coords": [10154, 14618], "loc": "Ледяная пещера"}}
+{"version": "add_mount", "dt": "2024-07-06 19:17:37", "event": "move", "target": {"coords": [10183, 14615], "loc": "Ледяная пещера"}}
+{"version": "add_mount", "dt": "2024-07-06 19:17:40", "event": "move", "target": {"coords": [10235, 14533], "loc": "Ледяная пещера", "fight": {"single_target": true}}}
+{"version": "add_mount", "dt": "2024-07-06 19:17:47", "event": "kill_all", "target": {"coords": [10235, 14533], "loc": "Ледяная пещера", "fight": {"single_target": true}}}
+{"version": "add_mount", "dt": "2024-07-06 19:18:39", "event": "move", "target": {"coords": [10247, 14515], "loc": "Ледяная пещера", "has_reward": true}}

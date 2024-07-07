@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<UIAddon>
+	<Name>Acords</Name>
+	<AutoStart>true</AutoStart>
+	<ScriptFileRefs>
+		<Item href="Script.lua" />
+	</ScriptFileRefs>
+	<Form href="MainForm.(WidgetForm).xdb" />
+</UIAddon>

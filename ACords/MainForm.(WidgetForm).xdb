@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<WidgetForm>
+	<Name>SampleZoneAnnounce</Name>
+	<Priority>5100</Priority>
+	<BackLayer href="Textures/white.(WidgetLayerSimpleTexture).xdb#xpointer(/WidgetLayerSimpleTexture)" />
+	<Children>
+		<Item href="Row1.(WidgetTextView).xdb" />
+		<Item href="Row2.(WidgetTextView).xdb" />
+		<Item href="Row3.(WidgetTextView).xdb" />
+	</Children>
+	<Placement>
+		<X>
+			<Size>700</Size>
+			<Pos>600</Pos>
+		</X>
+		<Y>
+			<Size>150</Size>
+			<Pos>0</Pos>
+		</Y>
+	</Placement>
+	<PickChildrenOnly>false</PickChildrenOnly>
+</WidgetForm>

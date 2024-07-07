@@ -1,0 +1,126 @@
+- coords:
+  - 9699
+  - 14383
+  loc: Ледяная пещера
+- coords:
+  - 9670
+  - 14383
+  loc: Ледяная пещера
+  fight:
+    single_target: false
+- coords:
+  - 9635
+  - 14382
+  loc: Ледяная пещера
+- coords:
+  - 9556
+  - 14371
+  loc: Ледяная пещера
+- coords:
+  - 9499
+  - 14377
+  loc: Ледяная пещера
+  fight:
+    single_target: false
+- coords:
+  - 9479
+  - 14397
+  loc: Ледяная пещера
+- coords:
+  - 9504
+  - 14449
+  loc: Ледяная пещера
+  fight: # босс1
+    single_target: false
+- coords:
+  - 9504
+  - 14449
+  loc: Ледяная пещера
+- coords:
+  - 9524
+  - 14463
+  loc: Ледяная пещера
+- coords:
+  - 9614
+  - 14468
+  loc: Ледяная пещера
+  fight:
+    single_target: false
+- coords:
+  - 9671
+  - 14491
+  loc: Ледяная пещера
+- coords:
+  - 9718
+  - 14489
+  loc: Ледяная пещера
+- coords:
+  - 9736
+  - 14473
+  loc: Ледяная пещера
+  fight:
+    single_target: false
+- coords:
+  - 9764
+  - 14451
+  loc: Ледяная пещера
+- coords:
+  - 9818
+  - 14429
+  loc: Ледяная пещера
+  fight: # босс2
+    single_target: true
+- coords:
+  - 9848
+  - 14418
+  loc: Ледяная пещера
+  has_reward: True
+- coords:
+  - 9870
+  - 14436
+  loc: Ледяная пещера
+- coords:
+  - 9933
+  - 14432
+  loc: Ледяная пещера
+  fight:
+    single_target: false
+- coords:
+  - 9962
+  - 14530
+  loc: Ледяная пещера
+  fight:
+    single_target: false
+- coords:
+  - 9973
+  - 14550
+  loc: Ледяная пещера
+- coords:
+  - 10060
+  - 14570
+  loc: Ледяная пещера
+  fight:
+    single_target: false
+- coords:
+  - 10098
+  - 14577
+  loc: Ледяная пещера
+- coords:
+  - 10154
+  - 14618
+  loc: Ледяная пещера
+- coords:
+  - 10183
+  - 14615
+  loc: Ледяная пещера
+- coords:
+  - 10235
+  - 14533
+  loc: Ледяная пещера
+  fight: # босс3
+    single_target: true
+- coords:
+  - 10247
+  - 14515
+  loc: Ледяная пещера
+  has_reward: True

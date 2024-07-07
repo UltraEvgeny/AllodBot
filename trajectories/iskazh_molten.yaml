@@ -1,0 +1,106 @@
+- coords:
+  - 16188
+  - 10364
+  loc: ѕылающие недра
+  fight:
+    single_target: false
+- coords:
+  - 16238
+  - 10413
+  loc: ѕылающие недра
+  fight:
+    single_target: false
+- coords:
+  - 16266
+  - 10436
+  loc: ѕылающие недра
+- coords:
+  - 16300
+  - 10467
+  loc: ѕылающие недра
+  fight:
+    single_target: false
+- coords:
+  - 16315
+  - 10484
+  loc: ѕылающие недра
+  fight:
+    single_target: false
+- coords:
+  - 16348
+  - 10536
+  loc: ѕылающие недра
+  fight:
+    single_target: false
+- coords:
+  - 16379
+  - 10555
+  loc: ѕылающие недра
+- coords:
+  - 16412
+  - 10559
+  loc: ѕылающие недра
+  fight:
+    single_target: false
+- coords:
+  - 16425
+  - 10564
+  loc: ѕылающие недра
+  has_reward: True
+- coords:
+  - 16439
+  - 10551
+  loc: ѕылающие недра
+- coords:
+  - 16464
+  - 10550
+  loc: ѕылающие недра
+  fight:
+    single_target: false
+- coords:
+  - 16514
+  - 10529
+  loc: ѕылающие недра
+  fight:
+    single_target: false
+- coords:
+  - 16547
+  - 10508
+  loc: ѕылающие недра
+- coords:
+  - 16554
+  - 10436
+  loc: ѕылающие недра
+  fight:
+    single_target: false
+- coords:
+  - 16559
+  - 10424
+  loc: ѕылающие недра
+  fight:
+    single_target: false
+- coords:
+  - 16559
+  - 10393
+  loc: ѕылающие недра
+  fight:
+    single_target: false
+- coords:
+  - 16587
+  - 10401
+  loc: ѕылающие недра
+- coords:
+  - 16618
+  - 10396
+  loc: ѕылающие недра
+- coords:
+  - 16652
+  - 10352
+  loc: ѕылающие недра
+  fight:
+    single_target: false
+- coords:
+  - 16680
+  - 10341
+  loc: ѕылающие недра
+  has_reward: True

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<WidgetTextView>
+	<Name>Row3</Name>
+	<Placement>
+		<QuantumScale>false</QuantumScale>
+		<X>
+			<Align>WIDGET_ALIGN_CENTER</Align>
+			<Sizing>WIDGET_SIZING_INTERNAL</Sizing>
+		</X>
+		<Y>
+			<Pos>100</Pos>
+			<Size>50</Size>
+		</Y>
+	</Placement>
+	<FormatFileRef href="TextFormat.txt" />
+</WidgetTextView>
