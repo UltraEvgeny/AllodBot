@@ -28,17 +28,17 @@ class ArduinoKB:
         codes = ArduinoKB._keys_to_codes(keys)
         while True:
             self._write(f'$,P,{codes};')
+            sleep(0.001)
             if self.ensure_keys_status(keys, is_pressed=True):
                 break
-            sleep(0.001)
 
     def release(self, keys: list[str]):
         codes = ArduinoKB._keys_to_codes(keys)
         while True:
             self._write(f'$,R,{codes};')
+            sleep(0.001)
             if self.ensure_keys_status(keys, is_pressed=False):
                 break
-            sleep(0.001)
 
     def release_all(self):
         self._write('$,L;')

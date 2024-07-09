@@ -71,28 +71,28 @@ class FarmIskazh(Model):
     async def enter_iskazh(self, delay=2):
         await self.kb.click(['left_control', 'm'])
         await self.mouse.move_mouse([0.36822917, 0.7287037])
-        self.mouse.click()
+        await self.mouse.click()
         await self.mouse.move_mouse([0.49427083, 0.40555556])
-        self.mouse.click()
+        await self.mouse.click()
         await self.mouse.move_mouse([0.3796875, 0.63240741])
-        self.mouse.click()
+        await self.mouse.click()
         await self.mouse.move_mouse([0.68802083, 0.69722222])
-        self.mouse.click()
+        await self.mouse.click()
         await self.mouse.move_mouse([0.4703125, 0.49259259])
-        self.mouse.click()
+        await self.mouse.click()
         await self.wait_until_load(leave_locations=['Личный аллод'])
 
     async def leave_iskazh(self, completed=False, delay=2):
         await self.mouse.move_mouse([0.85520833, 0.08981481])
-        self.mouse.click()
+        await self.mouse.click()
         confirm_leave_coords = [0.49166667, 0.51296296] if completed else [0.46770833, 0.47592593]
         await self.mouse.move_mouse(confirm_leave_coords)
-        self.mouse.click()
+        await self.mouse.click()
         await self.wait_until_load(target_locations=['Личный аллод'])
 
     async def accept_death(self):
         await self.mouse.move_mouse([0.4984375, 0.48240741])
-        self.mouse.click()
+        await self.mouse.click()
 
     async def enter_specific_iskazh(self):
         while True:

@@ -48,4 +48,4 @@ class Model(ABC):
         # await self.kb.click(['end'])
         # for _ in range(4):
         #     await self.kb.click(['page_down'])
-        self.mouse.click('2')
+        await self.mouse.click('2')

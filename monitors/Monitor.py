@@ -26,17 +26,8 @@ class Monitor:
             elif self.nocombat_start_dt is None:
                 self.nocombat_start_dt = datetime.now()
 
-            if self.cur_target_id != self.parent_model.screen_scanner.state.target_id:
-                self.cur_target_id = self.parent_model.screen_scanner.state.target_id
-                self.cur_target_selection_dt = datetime.now()
-
             await sleep(0.1)
 
     @property
     def out_of_combat_seconds(self):
         return 0 if self.nocombat_start_dt is None else (datetime.now() - self.nocombat_start_dt).total_seconds()
-
-    @property
-    def cur_target_selection_seconds(self):
-        return (datetime.now() - self.cur_target_selection_dt).total_seconds()
-
