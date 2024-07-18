@@ -1,5 +1,4 @@
 from keyboard_listeners.KeyboardDefaultListener import KeyboardDefaultListener
-from models.FarmAlongPathModel_old import FarmAlongPathModel_old
 from models.StandAndAtackModel import StandAndAtackModel
 from screen_scanner.ScreenScanner import ScreenScanner
 import pytesseract

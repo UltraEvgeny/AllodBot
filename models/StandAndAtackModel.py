@@ -2,7 +2,6 @@ from __future__ import annotations
 from typing import TYPE_CHECKING
 
 from actions.FightAction import FightAction
-from actions.AttackMove import AttackMove
 from models.Model import Model
 from keyboard_listeners.KeyboardDefaultListener import KeyboardDefaultListener
 from utils.trajectory_utils import load_trajectory

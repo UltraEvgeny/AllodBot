@@ -1,12 +1,11 @@
 from __future__ import annotations
 from typing import TYPE_CHECKING
 
-from actions.AttackMove import AttackMove, get_nearest_point_i, forward_backward_generator
 from actions.FightAction import FightAction
 from models.Model import Model
 from keyboard_listeners.KeyboardDefaultListener import KeyboardDefaultListener
 import numpy as np
-from utils.trajectory_utils import load_trajectory
+from utils.trajectory_utils import load_trajectory, forward_backward_generator, get_nearest_point_i
 from utils.funcs import wait_until_not_pressed
 from sounds import ascending_sound
 import asyncio
