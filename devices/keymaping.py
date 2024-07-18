@@ -105,13 +105,19 @@ s = '''\
 #define KEY_RIGHT_GUI		0xE7
 #define KEY_RIGHT_WIN		0xE7'''
 
-key_arduino_code_mapping = {}
 key_python_keyboard_maping = {
-    'arrow_left': 'left',
-    'arrow_right': 'right',
-    'arrow_up': 'up',
-    'arrow_down': 'down',
+    **{
+        'arrow_left': 'left',
+        'arrow_right': 'right',
+        'arrow_up': 'up',
+        'arrow_down': 'down',
+        'left_shift': 'shift',
+        'left_alt': 'alt',
+    },
+    **{str(x): str(x) for x in range(10)}
 }
+
+key_arduino_code_mapping = {}
 for row in s.split('\n'):
     if not row:
         pass

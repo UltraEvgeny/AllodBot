@@ -5,7 +5,7 @@ import keyboard
 from time import sleep
 
 
-keys_to_ensure_status = ['arrow_left', 'arrow_right', 'arrow_up', ]
+keys_to_ensure_status = list(key_python_keyboard_maping.keys())
 
 
 class ArduinoKB:
