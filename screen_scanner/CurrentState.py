@@ -16,7 +16,7 @@ class CurrentState:
     is_alive: bool = None
     is_combat_me: bool = None
     is_combat_target: bool = None
-    is_invul_target: bool = None
+    target_is_invul: bool = None
     target_is_hero: bool = None
     is_mounted: bool = None
     has_mogilnii_holod: bool = None
@@ -43,7 +43,7 @@ class CurrentState:
         self.is_alive = bool(mask_data[0])
         self.is_combat_me = bool(mask_data[1])
         self.is_combat_target = bool(mask_data[2])
-        self.is_invul_target = bool(mask_data[3])
+        self.target_is_invul = bool(mask_data[3])
         self.target_is_hero = bool(mask_data[4])
         self.is_mounted = bool(mask_data[5])
         self.has_mogilnii_holod = bool(mask_data[6])

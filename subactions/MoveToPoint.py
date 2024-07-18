@@ -61,7 +61,7 @@ class MoveToPoint(SubAction):
 
     async def move_forward_if_needed(self):
         while True:
-            angle_to_target = get_angle_to_rotate(self.parent_model.screen_scanner.state.coords, self.target_coords['coords'], self.parent_model.screen_scanner.state.facing_angle)
+            angle_to_target = get_angle_to_rotate(self.parent_model.screen_scanner.state.coords, self.target_coords['coords'], self.parent_model.screen_scanner.state.hero_facing_angle)
             if keyboard.is_pressed(key_python_keyboard_maping[self.forward_key]):
                 if abs(angle_to_target) > 60 / 180 * np.pi or abs(angle_to_target) > 30 / 180 * np.pi and self.is_near_target:
                     self.stop_moving()
@@ -81,7 +81,7 @@ class MoveToPoint(SubAction):
 
     async def rotate(self, only_if_needed=True):
         while True:
-            angle_to_target = get_angle_to_rotate(self.parent_model.screen_scanner.state.coords, self.target_coords['coords'], self.parent_model.screen_scanner.state.facing_angle)
+            angle_to_target = get_angle_to_rotate(self.parent_model.screen_scanner.state.coords, self.target_coords['coords'], self.parent_model.screen_scanner.state.hero_facing_angle)
             if not only_if_needed or abs(angle_to_target) > 10 / 180 * np.pi:
                 await self._rotate(angle_to_target)
             await sleep(0.5)

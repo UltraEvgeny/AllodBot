@@ -20,7 +20,7 @@ def get_rotation_speed():
     angles = []
     full_rounds = 0
     while not angles or pd.Timestamp.now() - angles[0]['time'] < measure_time:
-        cur_angle = scanner.state.facing_angle + 2 * pi * full_rounds
+        cur_angle = scanner.state.hero_facing_angle + 2 * pi * full_rounds
         if angles:
             if is_close(cur_angle, angles[-1]['angle']):
                 sleep(0.1)

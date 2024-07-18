@@ -79,12 +79,12 @@ function Update(params)
 			camera_angle*100
 		)
 		state2 = string.format(
-			[[X %d%d%d %d %d%d%d%d%d%d%d%d%d%d]]
+			[[X %d%d%d%d%d%d%d%d%d%d%d%d%d%d]]
 			----- mask start
 			,avatar.IsAlive() and 1 or 0 --# is_alive
 			,object.IsInCombat(avatarId) and 1 or 0 --# is_combat_me
 			,object.IsInCombat(targetId) and 1 or 0 --# is_combat_target
-			,target_is_invul --# is_invul_target
+			,target_is_invul --# target_is_invul
 			,unit.IsPlayer( targetId ) and 1 or 0 --# target_is_hero
 			,is_mounted_mirag --# is_mounted
 			,unitHasBuff(avatarId, "Могильный холод") and 1 or 0 --# has_mogilnii_holod
@@ -102,10 +102,10 @@ function Update(params)
 	wtMessage:SetVal( "value", state1 )
 	wtMessage2:SetVal( "value", state2 )
 	
-	wtMessage3:SetVal( "value", string.format("%d", avatar.GetNecromancerBloodPool().value ))
+	-- wtMessage3:SetVal( "value", string.format("%d", avatar.GetNecromancerBloodPool().value ))
 	-- wtMessage3:SetVal( "value", string.format("%d", spellLib.GetCooldown(avatar.GetSpellBook()[60]).remainingMs  ))
 	-- wtMessage3:SetVal( "value", userMods.FromWString(spellLib.GetDescription(avatar.GetSpellBook()[60]).name))
-	-- wtMessage3:SetVal( "value", userMods.FromWString(zone.zoneName) )
+	wtMessage3:SetVal( "value", userMods.FromWString(zone.zoneName) )
 end
 
 
