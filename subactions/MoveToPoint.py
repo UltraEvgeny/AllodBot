@@ -64,16 +64,16 @@ class MoveToPoint(SubAction):
             angle_to_target = get_angle_to_rotate(self.parent_model.screen_scanner.state.coords, self.target_coords['coords'], self.parent_model.screen_scanner.state.hero_facing_angle)
             if keyboard.is_pressed(key_python_keyboard_maping[self.forward_key]):
                 if abs(angle_to_target) > 60 / 180 * np.pi or abs(angle_to_target) > 30 / 180 * np.pi and self.is_near_target:
-                    self.stop_moving()
+                    await self.stop_moving()
             else:
                 dist = get_distance(self.parent_model.screen_scanner.state.coords, self.target_coords['coords'])
                 if abs(angle_to_target) < 60/180*np.pi and not self.is_near_target and not self.is_rotating:
                     if dist < 25:
                         await self.parent_model.kb.click([self.forward_key], delay=dist/16.25*0.8)
                     else:
-                        self.start_moving()
+                        await self.start_moving()
             if self.is_near_target or not self.parent_model.screen_scanner.state.is_alive:
-                self.stop_moving()
+                await self.stop_moving()
                 self.is_acting = False
                 break
 
@@ -100,11 +100,11 @@ class MoveToPoint(SubAction):
             await sleep(0.5)
             self.is_rotating = False
 
-    def start_moving(self):
-        self.parent_model.kb.press([self.forward_key])
+    async def start_moving(self):
+        await self.parent_model.kb.press([self.forward_key])
 
-    def stop_moving(self):
-        self.parent_model.kb.release([self.forward_key])
+    async def stop_moving(self):
+        await self.parent_model.kb.release([self.forward_key])
 
     async def mount(self):
         if not self.parent_model.screen_scanner.state.is_mounted:

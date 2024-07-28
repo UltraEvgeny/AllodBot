@@ -3,7 +3,7 @@ import serial
 from devices.keymaping import key_arduino_code_mapping, key_python_keyboard_maping
 import keyboard
 from time import sleep
-
+from devices.validate_device_action import validate_device_action
 
 keys_to_ensure_status = list(key_python_keyboard_maping.keys())
 
@@ -24,26 +24,20 @@ class ArduinoKB:
         codes = ','.join([str(key_arduino_code_mapping[key]) for key in keys])
         return codes
 
+    @validate_device_action(is_pressed=True)
     def press(self, keys: list[str]):
         codes = ArduinoKB._keys_to_codes(keys)
-        while True:
-            self._write(f'$,P,{codes};')
-            sleep(0.001)
-            if self.ensure_keys_status(keys, is_pressed=True):
-                break
+        self._write(f'$,P,{codes};')
 
+    @validate_device_action(is_pressed=False)
     def release(self, keys: list[str]):
         codes = ArduinoKB._keys_to_codes(keys)
-        while True:
-            self._write(f'$,R,{codes};')
-            sleep(0.001)
-            if self.ensure_keys_status(keys, is_pressed=False):
-                break
+        self._write(f'$,R,{codes};')
 
     def release_all(self):
         self._write('$,L;')
 
     async def click(self, keys, delay=0.1):
-        self.press(keys)
+        await self.press(keys)
         await asyncio.sleep(delay)
-        self.release(keys)
+        await self.release(keys)

@@ -1,3 +1,5 @@
+import string
+
 s = '''\
 #define KEY_1				0x1E
 #define KEY_2				0x1F
@@ -114,7 +116,8 @@ key_python_keyboard_maping = {
         'left_shift': 'shift',
         'left_alt': 'alt',
     },
-    **{str(x): str(x) for x in range(10)}
+    **{str(x): str(x) for x in range(10)},
+    **{x: x for x in string.ascii_lowercase},
 }
 
 key_arduino_code_mapping = {}

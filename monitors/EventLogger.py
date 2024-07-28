@@ -1,3 +1,4 @@
+import logging
 import json
 from datetime import datetime
 import numpy as np
@@ -10,8 +11,11 @@ class NumpyEncoder(json.JSONEncoder):
         return super().default(obj)
 
 
-def write_to_log(event_data: dict):
-    version = 'add_mount'
-    dt_str = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-    with open('logs.txt', 'a', encoding='utf-8') as f:
-        f.write(json.dumps({**{'version': version, 'dt': dt_str},  **event_data}, ensure_ascii=False, cls=NumpyEncoder)+'\n')
+def write_to_log(event_data: dict, level='INFO'):
+    logging.basicConfig(filename='logs.txt',  # 'D:/AllodLogs/logs.txt'
+                        filemode='a',
+                        format='%(asctime)s %(levelname)s %(message)s',
+                        datefmt='%Y-%m-%d %H:%M:%S',
+                        level=logging.INFO, )
+    # logging.info(json.dumps(event_data, ensure_ascii=False, cls=NumpyEncoder))
+    logging.log(level=logging.getLevelName(level), msg=json.dumps(event_data, ensure_ascii=False, cls=NumpyEncoder))
