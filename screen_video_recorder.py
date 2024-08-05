@@ -7,7 +7,7 @@ from datetime import datetime
 
 
 def main():
-    resolution = tuple((np.array([1920, 1080])*0.5).astype(int))
+    resolution = [int(x) for x in np.array([1920, 1080])*0.5]
     codec = cv2.VideoWriter_fourcc(*"XVID")
 
     start_dt = datetime.now()
@@ -16,11 +16,11 @@ def main():
     print(filename)
     fps = 30.0
 
-    out = cv2.VideoWriter(filename, codec, fps, resolution)
+    out = cv2.VideoWriter(filename, codec, fps, resolution, isColor=True)
 
     while True:
         img = pyautogui.screenshot()
-        frame = np.array(img)
+        frame = np.array(img, dtype=np.uint8)
         frame = cv2.resize(frame, resolution)
         frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
         out.write(frame)

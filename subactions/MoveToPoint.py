@@ -9,7 +9,7 @@ from asyncio import sleep
 import numpy as np
 import asyncio
 import keyboard
-from devices.ArduinoKeyBoard import key_python_keyboard_maping
+from devices.keymaping import keyboard_mapping
 
 
 def get_distance(x1, x2):
@@ -62,7 +62,7 @@ class MoveToPoint(SubAction):
     async def move_forward_if_needed(self):
         while True:
             angle_to_target = get_angle_to_rotate(self.parent_model.screen_scanner.state.coords, self.target_coords['coords'], self.parent_model.screen_scanner.state.hero_facing_angle)
-            if keyboard.is_pressed(key_python_keyboard_maping[self.forward_key]):
+            if keyboard.is_pressed(keyboard_mapping[self.forward_key]):
                 if abs(angle_to_target) > 60 / 180 * np.pi or abs(angle_to_target) > 30 / 180 * np.pi and self.is_near_target:
                     await self.stop_moving()
             else:
@@ -90,7 +90,7 @@ class MoveToPoint(SubAction):
 
     async def _rotate(self, angle_to_rotate):
         turning_time = abs(angle_to_rotate) / self.rotation_speed
-        if all(map(lambda k: not keyboard.is_pressed(key_python_keyboard_maping[k]), [self.left_rotation_key, self.right_rotation_key])):
+        if all(map(lambda k: not keyboard.is_pressed(keyboard_mapping[k]), [self.left_rotation_key, self.right_rotation_key])):
             if angle_to_rotate > 0:
                 rotation_key = self.left_rotation_key
             else:
@@ -109,4 +109,4 @@ class MoveToPoint(SubAction):
     async def mount(self):
         if not self.parent_model.screen_scanner.state.is_mounted:
             await self.parent_model.kb.click(['left_alt', 'z'])
-            await sleep(0.75)
+            await sleep(0.9)

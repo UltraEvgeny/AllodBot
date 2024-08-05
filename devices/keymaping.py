@@ -107,7 +107,7 @@ s = '''\
 #define KEY_RIGHT_GUI		0xE7
 #define KEY_RIGHT_WIN		0xE7'''
 
-key_python_keyboard_maping = {
+keyboard_mapping = {
     **{
         'arrow_left': 'left',
         'arrow_right': 'right',
@@ -115,6 +115,22 @@ key_python_keyboard_maping = {
         'arrow_down': 'down',
         'left_shift': 'shift',
         'left_alt': 'alt',
+        'tab': 'tab',
+    },
+    **{str(x): str(x) for x in range(10)},
+    **{x: x for x in string.ascii_lowercase},
+}
+
+pynput_mapping = {
+    **{
+        'arrow_left': 'left',
+        'arrow_right': 'right',
+        'arrow_up': 'up',
+        'arrow_down': 'down',
+        'left_shift': 'shift',
+        'left_alt': 'alt_l',
+        'left_control': 'ctrl_l',
+        'tab': 'tab',
     },
     **{str(x): str(x) for x in range(10)},
     **{x: x for x in string.ascii_lowercase},

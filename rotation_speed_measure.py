@@ -4,6 +4,7 @@ from time import sleep
 import pandas as pd
 from math import pi
 from utils.funcs import is_close, is_increasing
+import asyncio
 
 
 def get_rotation_speed():
@@ -16,7 +17,7 @@ def get_rotation_speed():
         sleep(0.1)
 
     sleep(1)
-    kb.press(['arrow_left'])
+    asyncio.run(kb.press(['arrow_left']))
     angles = []
     full_rounds = 0
     while not angles or pd.Timestamp.now() - angles[0]['time'] < measure_time:
@@ -31,7 +32,7 @@ def get_rotation_speed():
                 print(full_rounds)
         sleep(0.1)
         angles.append(dict(time=pd.Timestamp.now(), angle=cur_angle))
-    kb.release(['arrow_left'])
+    asyncio.run(kb.release(['arrow_left']))
     scanner.stop_updating()
     if not is_increasing([x['angle'] for x in angles]):
         print([x['angle'] for x in angles])

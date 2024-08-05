@@ -10,7 +10,7 @@ import win32api
 
 class ArduinoMouse:
     def __init__(self):
-        self.arduino = serial.Serial(port='COM8', baudrate=115200, timeout=.1)
+        self.arduino = serial.Serial(port='COM4', baudrate=115200, timeout=.1)
 
     @staticmethod
     def ensure_keys_status(button: str, is_pressed):
@@ -28,21 +28,21 @@ class ArduinoMouse:
         self._write(f'$,M,{dx},{dy};')
 
     async def click(self, button='1', delay=0.1):
-        self.press(button)
+        await self.press(button)
         await asyncio.sleep(delay)
-        self.release_all()
+        await self.release_all(button_to_check=button)
 
-    def press(self, button):
+    async def press(self, button):
         while True:
             self._write(f'$,P,{button};')
-            sleep(0.001)
+            await asyncio.sleep(0.001)
             if self.ensure_keys_status(button, is_pressed=True):
                 break
 
-    def release_all(self, button_to_check='1'):
+    async def release_all(self, button_to_check='1'):
         while True:
             self._write(f'$,R;')
-            sleep(0.001)
+            await asyncio.sleep(0.001)
             if self.ensure_keys_status(button_to_check, is_pressed=False):
                 break
 

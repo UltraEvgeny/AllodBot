@@ -28,7 +28,6 @@ class FightAction(Action):
         self.find_nonhero_combat_target = FindNonHeroCombatTarget(*args, **kwargs)
         self.do_combat_rotation = DoCombatRotation(*args, **kwargs)
         self.kill_all_search_time = 4
-        self.kill_all_search_time = 4
         self.subaction_seq = [
             lambda: self.start_nonhero_combat.subact_until_success(self),
             lambda: self.find_nonhero_combat_target.subact_until_success(self),
@@ -46,7 +45,7 @@ class FightAction(Action):
 
     async def kill_all(self, only_one_combat=False):
         self.is_acting = True
-        await sleep(5)
+        await sleep(15)
         while True:
             if only_one_combat:
                 if not self.parent_model.screen_scanner.state.is_combat_me:
