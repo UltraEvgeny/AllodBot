@@ -5,7 +5,7 @@ from screen_scanner.CurrentState import CurrentState
 import pytesseract
 import tesserocr
 # https://github.com/simonflueckiger/tesserocr-windows_build/releases
-# pip install "C:\Users\Ksenia\Downloads\tesserocr-2.7.0-cp310-cp310-win_amd64.whl"
+# pip install "C:\Users\Pro\Downloads\tesserocr-2.7.0-cp312-cp312-win_amd64.whl"
 from sounds import low_sound, high_sound
 from my_shared_memory.ShareableObject import ShareableObject
 from time import sleep
