@@ -77,14 +77,15 @@ class FarmIskazh(Model):
         await self.mouse.click()
         await self.mouse.move_mouse([0.68802083, 0.69722222])
         await self.mouse.click()
-        await self.mouse.move_mouse([0.4703125, 0.49259259])
+        await sleep(0.5)
         await self.mouse.click()
         await self.wait_until_load(leave_locations=['Личный аллод'])
 
-    async def leave_iskazh(self, completed=False, delay=2):
+    async def leave_iskazh(self, completed=False):
+        # при завершении искажения появляется красная надпись, сдвигающая окошко подтверждения выхода
         await self.mouse.move_mouse([0.85520833, 0.08981481])
         await self.mouse.click()
-        confirm_leave_coords = [0.49166667, 0.51296296] if completed else [0.46770833, 0.47592593]
+        confirm_leave_coords = confirm_leave_coords = [0.49166667, 0.51296296] if completed else [0.68802083, 0.69722222]
         await self.mouse.move_mouse(confirm_leave_coords)
         await self.mouse.click()
         await self.wait_until_load(target_locations=['Личный аллод'])
