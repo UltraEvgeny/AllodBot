@@ -21,12 +21,15 @@ class CurrentState:
     is_mounted: bool = None
     has_mogilnii_holod: bool = None
     has_krovopuskanie: bool = None
+    has_mrachnii_zhnec: bool = None
     target_has_alch: bool = None
     target_has_lih: bool = None
     target_has_neurotoxin: bool = None
     target_has_virus: bool = None
     is_alch_in_cd: bool = None
     is_krovopuskanie_in_cd: bool = None
+    is_kasanie_in_cd: bool = None
+    is_def_in_cd: bool = None
 
     def set_state(self, state_data, location_text):
         if len(state_data) != 6:
@@ -48,12 +51,15 @@ class CurrentState:
         self.is_mounted = bool(mask_data[5])
         self.has_mogilnii_holod = bool(mask_data[6])
         self.has_krovopuskanie = bool(mask_data[7])
-        self.target_has_alch = bool(mask_data[8])
-        self.target_has_lih = bool(mask_data[9])
-        self.target_has_neurotoxin = bool(mask_data[10])
-        self.target_has_virus = bool(mask_data[11])
-        self.is_alch_in_cd = bool(mask_data[12])
-        self.is_krovopuskanie_in_cd = bool(mask_data[13])
+        self.has_mrachnii_zhnec = bool(mask_data[8])
+        self.target_has_alch = bool(mask_data[9])
+        self.target_has_lih = bool(mask_data[10])
+        self.target_has_neurotoxin = bool(mask_data[11])
+        self.target_has_virus = bool(mask_data[12])
+        self.is_alch_in_cd = bool(mask_data[13])
+        self.is_krovopuskanie_in_cd = bool(mask_data[14])
+        self.is_kasanie_in_cd = bool(mask_data[15])
+        self.is_def_in_cd = bool(mask_data[16])
 
     @property
     def target_has_all_dots(self):

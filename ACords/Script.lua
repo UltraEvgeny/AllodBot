@@ -79,7 +79,7 @@ function Update(params)
 			camera_angle*100
 		)
 		state2 = string.format(
-			[[X %d%d%d%d%d%d%d%d%d%d%d%d%d%d]]
+			[[X %d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d]]
 			----- mask start
 			,avatar.IsAlive() and 1 or 0 --# is_alive
 			,object.IsInCombat(avatarId) and 1 or 0 --# is_combat_me
@@ -89,12 +89,15 @@ function Update(params)
 			,is_mounted_mirag --# is_mounted
 			,unitHasBuff(avatarId, "Могильный холод") and 1 or 0 --# has_mogilnii_holod
 			,unitHasBuff(avatarId, "Кровопускание") and 1 or 0 --# has_krovopuskanie
+			,unitHasBuff(avatarId, "Мрачный жнец") and 1 or 0 --# has_mrachnii_zhnec
 			,unitHasBuff(targetId, "Алчные тени") and 1 or 0 --# target_has_alch
 			,unitHasBuff(targetId, "Лихорадка") and 1 or 0 --# target_has_lih
 			,unitHasBuff(targetId, "Нейротоксин") and 1 or 0 --# target_has_neurotoxin
 			,unitHasBuff(targetId, "Вирус") and 1 or 0 --# target_has_virus
 			,spellInCd("Алчные тени") --# is_alch_in_cd
 			,spellInCd("Кровопускание") --# is_krovopuskanie_in_cd
+			,spellInCd("Касание смерти") --# is_kasanie_in_cd
+			,spellInCd("Кровавая корка") --# is_def_in_cd
 			----- mask end
 
 		)

@@ -47,17 +47,21 @@ class DoCombatRotation(SubAction):
         if not self.parent_model.screen_scanner.state.has_krovopuskanie and not self.parent_model.screen_scanner.state.is_krovopuskanie_in_cd:
             self.queue.insert(0, self.cast_krovopuskanie)
         if len(self.queue) == 0:
-            if not self.parent_model.screen_scanner.state.target_has_alch and not self.parent_model.screen_scanner.state.is_alch_in_cd and self.get_internal_last_cast('cast_alch'):
-                self.queue.extend([self.cast_alch, sleep_c(0.5)])
-            elif not self.parent_model.screen_scanner.state.target_has_virus and self.get_internal_last_cast('cast_virus') > 2:
-                self.queue.extend([self.cast_virus, sleep_c(0.5)])
+            if self.parent_model.screen_scanner.state.hp < 0.5 and not self.parent_model.screen_scanner.state.is_def_in_cd and self.get_internal_last_cast('cast_def') > 6:
+                self.queue.extend([self.cast_def, sleep_c(0.9)])
+            elif self.parent_model.screen_scanner.state.target_has_lih and not self.parent_model.screen_scanner.state.has_mrachnii_zhnec:
+                self.queue.extend([self.cast_kasanie_smerti, sleep_c(0.9)])
             elif not self.parent_model.screen_scanner.state.target_has_lih and self.get_internal_last_cast('cast_lih') > 2:
-                self.queue.extend([self.cast_lih, sleep_c(0.5)])
+                self.queue.extend([self.cast_lih, sleep_c(0.9)])
+            elif not self.parent_model.screen_scanner.state.target_has_alch and not self.parent_model.screen_scanner.state.is_alch_in_cd and self.get_internal_last_cast('cast_alch'):
+                self.queue.extend([self.cast_alch, sleep_c(0.9)])
+            elif not self.parent_model.screen_scanner.state.target_has_virus and self.get_internal_last_cast('cast_virus') > 2:
+                self.queue.extend([self.cast_virus, sleep_c(0.9)])
             elif not self.parent_model.screen_scanner.state.target_has_neurotoxin and self.get_internal_last_cast('cast_neur') > 2:
-                self.queue.extend([self.cast_neur, sleep_c(0.5)])
+                self.queue.extend([self.cast_neur, sleep_c(0.9)])
             else:
-                self.queue.extend([self.cast_drain, sleep_c(0.5)])
-            self.queue.extend([self.cast_dihanie, sleep_c(0.5)])
+                self.queue.extend([self.cast_drain, sleep_c(0.9)])
+            self.queue.extend([self.cast_dihanie, sleep_c(0.1)])
         await self.queue.pop(0)()
 
     async def reset(self):
@@ -70,6 +74,10 @@ class DoCombatRotation(SubAction):
     @has_internal_cd
     async def cast_alch(self):
         await self.parent_model.kb.click(['3'])
+
+    @has_internal_cd
+    async def cast_kasanie_smerti(self):
+        await self.parent_model.kb.click(['left_alt', '1'])
 
     @has_internal_cd
     async def cast_lih(self):
@@ -94,3 +102,5 @@ class DoCombatRotation(SubAction):
             await self.parent_model.kb.click(['2'])
             self.dihanie_casts += 1
 
+    async def cast_def(self):
+        await self.parent_model.kb.click(['left_alt', 'q'])
