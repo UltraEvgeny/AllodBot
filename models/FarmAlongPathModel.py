@@ -22,8 +22,8 @@ class FarmAlongPathModel(Model):
     def __init__(self, *, screen_scanner: ScreenScanner, kb: ArduinoKB, mouse: ArduinoMouse, trajectory_name):
         super().__init__(screen_scanner=screen_scanner, kb=kb, mouse=mouse)
         self.kb_listener = KeyboardDefaultListener(self)
-        self.fight_action = FightAction(screen_scanner=screen_scanner, kb=kb)
-        self.move = MoveToPoint(screen_scanner=screen_scanner, kb=kb, monitor=self.monitor)
+        self.fight_action = FightAction(parent_model=self, first_search_delay=4)
+        self.move = MoveToPoint(parent_model=self)
         self.trajectory = load_trajectory(trajectory_name)
 
     async def _start(self):

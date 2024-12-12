@@ -81,7 +81,6 @@ while True:
     asyncio.run(kb.click(keys=['arrow_left']))
     sleep(1)
 
-
 measure_method_config = {
     'listener': {
         'get_key_status': lambda k: pynput_mapping[k] in listener_keys_pressed,

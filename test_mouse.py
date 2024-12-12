@@ -11,12 +11,12 @@ import win32api
 
 mouse = ArduinoMouse()
 asyncio.run(mouse.move_mouse([0.4703125, 0.49259259]))
-exit()
+# exit()
 print(win32api.GetKeyState(1))
 print(win32api.GetKeyState(2))
 print(pyautogui.size())
 sleep(2)
-button = '2'
+button = '1'
 for _ in range(10):
     mouse.press(button)
     print(win32api.GetKeyState(int(button)))

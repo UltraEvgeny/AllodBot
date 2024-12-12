@@ -25,7 +25,7 @@ class FarmIskazh(Model):
     def __init__(self, *, screen_scanner: ScreenScanner, kb: ArduinoKB, mouse: ArduinoMouse, trajectory_name):
         super().__init__(screen_scanner=screen_scanner, kb=kb, mouse=mouse)
         self.kb_listener = KeyboardDefaultListener(self)
-        self.fight_action = FightAction(parent_model=self)
+        self.fight_action = FightAction(parent_model=self, first_search_delay=15)
         self.move = MoveToPoint(parent_model=self)
         self.trajectory = load_trajectory(trajectory_name)
         self.iskazhs = ['iskazh_ice']
@@ -73,7 +73,8 @@ class FarmIskazh(Model):
         await self.mouse.click()
         await self.mouse.move_mouse([0.49427083, 0.40555556])
         await self.mouse.click()
-        await self.mouse.move_mouse([0.3796875, 0.63240741])
+        #await self.mouse.move_mouse([0.3796875, 0.63240741])
+        await self.mouse.move_mouse([0.3796875, 0.53703704]) # для первого (зелёного) слоя
         await self.mouse.click()
         await self.mouse.move_mouse([0.68802083, 0.69722222])
         await self.mouse.click()

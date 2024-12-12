@@ -116,6 +116,7 @@ keyboard_mapping = {
         'left_shift': 'shift',
         'left_alt': 'alt',
         'tab': 'tab',
+        'left_control': 'ctrl',
     },
     **{str(x): str(x) for x in range(10)},
     **{x: x for x in string.ascii_lowercase},
