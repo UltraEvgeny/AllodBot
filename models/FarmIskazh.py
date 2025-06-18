@@ -68,7 +68,7 @@ class FarmIskazh(Model):
                 await self.leave_iskazh(completed=True)
 
     async def enter_iskazh(self, delay=2):
-        await self.kb.click(['left_control', 'm'])
+        await self.kb.click(['left_control', 'm'], validation_level_press=2)
         await self.mouse.move_mouse([0.36822917, 0.7287037])
         await self.mouse.click()
         await self.mouse.move_mouse([0.49427083, 0.40555556])
@@ -86,13 +86,14 @@ class FarmIskazh(Model):
         # при завершении искажения появляется красная надпись, сдвигающая окошко подтверждения выхода
         await self.mouse.move_mouse([0.85520833, 0.08981481])
         await self.mouse.click()
-        confirm_leave_coords = confirm_leave_coords = [0.49166667, 0.51296296] if completed else [0.68802083, 0.69722222]
+        confirm_leave_coords = [0.49166667, 0.51296296] if completed else [0.68802083, 0.69722222]
         await self.mouse.move_mouse(confirm_leave_coords)
         await self.mouse.click()
         await self.wait_until_load(target_locations=['Личный аллод'])
+        await sleep(0.5)
 
     async def accept_death(self):
-        await self.mouse.move_mouse([0.4984375, 0.48240741])
+        await self.mouse.move_mouse([0.715625, 0.70092593])
         await self.mouse.click()
 
     async def enter_specific_iskazh(self):
@@ -112,3 +113,10 @@ class FarmIskazh(Model):
         if leave_locations is not None:
             while self.screen_scanner.state.location in leave_locations:
                 await sleep(0.1)
+    # [0.801 0.343]
+    # [0.926 0.343]
+
+    async def drop_items(self):
+        bag_item_4coords = [[0.801 + (0.926 - 0.801)*i/5, 0.343] for i in range(6)]
+        await self.kb.click(['b'], delay=0.2)
+        return

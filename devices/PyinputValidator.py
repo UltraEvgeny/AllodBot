@@ -28,7 +28,7 @@ class PyinputValidator:
 
     def validate(self):
         if len(self.remaining_keys) == 0:
-            print(f'111111111111111111111111111111111 {self.keys}')
+            print(f'{self.keys}')
         return len(self.remaining_keys) == 0
 
     def stop(self):

@@ -31,14 +31,15 @@ class MoveToPoint(SubAction):
     right_rotation_key = 'arrow_right'
     forward_key = 'arrow_up'
 
-    def __init__(self, *arg, **kwargs):
+    def __init__(self, *arg, use_mount=True, **kwargs):
         super().__init__(*arg, **kwargs)
         self.target_coords = None
         self.is_acting = False
         self.is_rotating = False
+        self.use_mount = use_mount
 
     def set_target_coords(self, target_coords):
-        self.target_coords = target_coords
+        self.target_coords = target_coords # {'coords: [123, 2342], 'has_reward: True, 'loc': 'Кадаган}
         return self
 
     @property
@@ -53,17 +54,18 @@ class MoveToPoint(SubAction):
     async def subact(self):
         self.parent_model.kb.release_all()
         self.is_acting = True
-        if not self.target_coords.get('has_reward', False):
+        if self.use_mount and not self.target_coords.get('has_reward', False):
             await self.mount()
         await asyncio.gather(self.move_forward_if_needed(), self.rotate(), self.parent_model.straighten_camera())
         self.parent_model.kb.release_all()
         low_sound(length=0.5)
 
     async def move_forward_if_needed(self):
+        await sleep(0.1) # Avoid simultaneous move and rotate pressfing
         while True:
             angle_to_target = get_angle_to_rotate(self.parent_model.screen_scanner.state.coords, self.target_coords['coords'], self.parent_model.screen_scanner.state.hero_facing_angle)
             if keyboard.is_pressed(keyboard_mapping[self.forward_key]):
-                if abs(angle_to_target) > 60 / 180 * np.pi or abs(angle_to_target) > 30 / 180 * np.pi and self.is_near_target:
+                if abs(angle_to_target) > 30 / 180 * np.pi or abs(angle_to_target) > 30 / 180 * np.pi and self.is_near_target:
                     await self.stop_moving()
             else:
                 dist = get_distance(self.parent_model.screen_scanner.state.coords, self.target_coords['coords'])
@@ -72,7 +74,8 @@ class MoveToPoint(SubAction):
                         await self.parent_model.kb.click([self.forward_key], delay=dist/16.25*0.8)
                     else:
                         await self.start_moving()
-            if self.is_near_target or not self.parent_model.screen_scanner.state.is_alive:
+            if self.is_near_target or not self.parent_model.screen_scanner.state.is_alive \
+                    or self.parent_model.screen_scanner.need_location and self.parent_model.screen_scanner.state.location != self.target_coords['loc']:
                 await self.stop_moving()
                 self.is_acting = False
                 break

@@ -23,8 +23,7 @@ class FarmAlongPathModel(Model):
         super().__init__(screen_scanner=screen_scanner, kb=kb, mouse=mouse)
         self.kb_listener = KeyboardDefaultListener(self)
         self.fight_action = FightAction(parent_model=self, first_search_delay=4)
-        self.move = MoveToPoint(parent_model=self)
-        self.trajectory = load_trajectory(trajectory_name)
+        self.move = MoveToPoint(parent_model=self, use_mount=False)
 
     async def _start(self):
         loop = asyncio.get_running_loop()
@@ -37,8 +36,11 @@ class FarmAlongPathModel(Model):
         nearest_i = get_nearest_point_i(self.screen_scanner.state.coords, np.array([x['coords'] for x in self.trajectory]))
         print(nearest_i)
         path_gen = forward_backward_generator(self.trajectory, initial_i=nearest_i)
-        await sleep(4)
+        await sleep(1)
         while True:
             await self.fight_action.kill_all()
-            self.move.set_target_coords(next(path_gen))
+            while True:
+                self.move.set_target_coords(next(path_gen))
+                if self.screen_scanner.state.location == self.move.target_coords['loc']:
+                    break
             await self.move.subact()

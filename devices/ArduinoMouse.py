@@ -10,7 +10,7 @@ import win32api
 
 class ArduinoMouse:
     def __init__(self):
-        self.arduino = serial.Serial(port='COM4', baudrate=115200, timeout=.1)
+        self.arduino = serial.Serial(port='COM10', baudrate=115200, timeout=.1)
 
     @staticmethod
     def ensure_keys_status(button: str, is_pressed):

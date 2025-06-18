@@ -11,6 +11,8 @@ class NumpyEncoder(json.JSONEncoder):
         return super().default(obj)
 
 
-def write_to_log(event_data: dict, level='INFO'):
+def write_to_log(event_data: dict, level='INFO', print_=True):
+    if print_:
+        print(event_data)
     # logging.info(json.dumps(event_data, ensure_ascii=False, cls=NumpyEncoder))
     logging.log(level=logging.getLevelName(level), msg=json.dumps(event_data, ensure_ascii=False, cls=NumpyEncoder))

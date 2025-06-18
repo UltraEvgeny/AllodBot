@@ -8,7 +8,7 @@ class StartNonHeroCombat(SubactionWithRotation):
         self.rotation = [
             lambda: self.parent_model.kb.click(['tab']),
             sleep_c(0.1),
-            lambda: (self.parent_model.kb.click(['3']) if not self.parent_model.screen_scanner.state.target_is_hero and not self.parent_model.screen_scanner.state.target_is_invul else sleep_c(0)),
+            lambda: (self.parent_model.kb.click(['left_alt', '3']) if not self.parent_model.screen_scanner.state.target_is_hero and not self.parent_model.screen_scanner.state.target_is_invul else sleep_c(0)),
             sleep_c(0.3),
             lambda: self.parent_model.kb.click(['arrow_left'], delay=0.6),
         ]

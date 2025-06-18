@@ -1,0 +1,24 @@
+- coords:
+  - 2981
+  - 2393
+  fight:
+    single_target: false
+  loc: Кадаган
+- coords:
+  - 2932
+  - 2393
+  fight:
+    single_target: false
+  loc: Кадаган
+- coords:
+  - 2932
+  - 2427
+  fight:
+    single_target: false
+  loc: Кадаган
+- coords:
+  - 2941
+  - 2437
+  fight:
+    single_target: false
+  loc: Кадаган

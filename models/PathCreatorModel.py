@@ -13,7 +13,7 @@ class PathCreatorModel(Model):
     need_location = True
 
     def __init__(self, *, screen_scanner: ScreenScanner = None, name=None):
-        super().__init__(screen_scanner=screen_scanner, kb=None)
+        super().__init__(screen_scanner=screen_scanner, kb=None, mouse=None)
         self.name = name
         self.kb_listener = KeyboardPathCreatorDefaultListener(self)
         self.path = []

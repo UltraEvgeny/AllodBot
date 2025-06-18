@@ -18,10 +18,10 @@ print(pyautogui.size())
 sleep(2)
 button = '1'
 for _ in range(10):
-    mouse.press(button)
+    asyncio.run(mouse.press(button))
     print(win32api.GetKeyState(int(button)))
     assert ArduinoMouse.ensure_keys_status(button, is_pressed=True)
-    mouse.release_all(button)
+    asyncio.run(mouse.release_all(button))
     assert ArduinoMouse.ensure_keys_status(button, is_pressed=False)
     asyncio.run(mouse.click(button))
     assert ArduinoMouse.ensure_keys_status(button, is_pressed=False)

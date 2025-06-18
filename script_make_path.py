@@ -15,5 +15,5 @@ if __name__ == '__main__':
     p = Process(target=run_scanner.run_scanner_server, kwargs=dict(scanner=scanner))
     p.start()
 
-    model = PathCreatorModel(name='iskazh_molten', screen_scanner=scanner,)
+    model = PathCreatorModel(name='kadagan_manastation', screen_scanner=scanner,)
     model.start()

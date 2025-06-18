@@ -33,11 +33,10 @@ class Monitor:
                 self.nocombat_start_dt = datetime.now()
             keys_pressed = await get_all_keys_pressed()
             write_to_log({'keys_pressed_from_monitor': keys_pressed})
-            print(keys_pressed)
-            if (datetime.now() - self.last_release_add_dt).total_seconds() > 10:
-                self.parent_model.kb.release_all()
-                write_to_log({'release_all': keys_pressed})
-                self.last_release_add_dt = datetime.now()
+            # if (datetime.now() - self.last_release_add_dt).total_seconds() > 10:
+            #     self.parent_model.kb.release_all()
+            #     write_to_log({'release_all': keys_pressed})
+            #     self.last_release_add_dt = datetime.now()
 
             await sleep(0.1)
 
